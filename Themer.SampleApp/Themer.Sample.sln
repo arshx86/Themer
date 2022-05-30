@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Themer.Sample", "src/Themer.Sample.csproj", "{C6C5F179-FA51-42B2-BFBA-07FA01A2CE08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C5F179-FA51-42B2-BFBA-07FA01A2CE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C5F179-FA51-42B2-BFBA-07FA01A2CE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C5F179-FA51-42B2-BFBA-07FA01A2CE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C5F179-FA51-42B2-BFBA-07FA01A2CE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DE17CA-5620-4F1F-B4DC-5EC40EB1ABD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DE17CA-5620-4F1F-B4DC-5EC40EB1ABD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DE17CA-5620-4F1F-B4DC-5EC40EB1ABD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DE17CA-5620-4F1F-B4DC-5EC40EB1ABD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F9069AB-4E43-420C-B158-26DCB1BA79DF}
+	EndGlobalSection
+EndGlobal
