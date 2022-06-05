@@ -21,13 +21,12 @@ Take a look at **background** themes you can apply with **Themer**.
 > Add the **DLL** to project that you downloaded from **releases**. Import using state of `Themer.Framework`. DLL is static and you don't need to import anything else except that.
 > This example will inject **acrylic** style into your form. Just pickup the theme you want!
 ```csharp
-private Framework.Themer _themer;
+ private ThemerApplier _themer;
 
 protected override void OnLoad(EventArgs e)
 {
-	_themer = new Themer.Framework.Themer(this.Handle); // handle of form
-        _themer.Set(Themes.Acrylic);
-        // base.OnLoad(e);
+	_themer = new ThemerApplier(this.Handle); // create new instance
+	_themer.Apply(Themes.Acrylic); // apply theme
 }
 ```
 Note: you can **change**/**delete** this theme any time you want. But before setting first time make sure you're setting in the **OnLoad** or **OnPaint** events of the form. Don't try to inject in constructor. 
@@ -35,7 +34,7 @@ You should have the **form handle** of form you want to **theme** it.
 
 ## Removing Theme
 ```csharp
-_themer.Set(Themes.Disabled);
+_themer.Apply(Themes.Disabled);
 ```
 will remove the current theme and dispose from the **DMI**.
 
