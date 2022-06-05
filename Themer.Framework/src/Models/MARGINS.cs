@@ -1,11 +1,10 @@
-﻿namespace Themer.Framework.Models;
+﻿namespace Themer.Models;
 
-[EditorBrowsable(EditorBrowsableState.Never)]
 [StructLayout(LayoutKind.Sequential)]
 internal struct MARGINS
 {
-	public int Left;
-	public int Right;
-	public int Top;
-	public int Bottom;
+    public int Left;
+    public int Right;
+    public int Top;
+    public int Bottom;
 }

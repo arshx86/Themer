@@ -1,10 +1,10 @@
-﻿namespace Themer.Framework.Models;
+﻿namespace Themer.Models;
 
 [EditorBrowsable(EditorBrowsableState.Never)]
 [StructLayout(LayoutKind.Sequential)]
-internal struct WindowCompositionAttributeData
+public struct WindowCompositionAttributeData
 {
-	public WindowCompositionAttribute Attribute;
-	public IntPtr Data;
-	public int SizeOfData;
+    public WindowCompositionAttribute Attribute;
+    public IntPtr Data;
+    public int SizeOfData;
 }

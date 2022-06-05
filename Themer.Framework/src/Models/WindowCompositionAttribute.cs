@@ -1,7 +1,6 @@
-﻿namespace Themer.Framework.Models;
+﻿namespace Themer.Models;
 
-[EditorBrowsable(EditorBrowsableState.Never)]
-internal enum WindowCompositionAttribute
+public enum WindowCompositionAttribute
 {
-	WCA_ACCENT_POLICY = 19
+    WCA_ACCENT_POLICY = 19
 }
