@@ -58,25 +58,25 @@ namespace Themer.Sample
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            _themer.Set(Theme.Acrylic);
+            _themer.Apply(Themes.Acrylic);
             lbl.Text = "Acrylic";
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            _themer.Set(Theme.AeroGlass);
+            _themer.Apply(Themes.AeroGlass);
             lbl.Text = "Glass";
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            _themer.Set(Theme.Transparent);
+            _themer.Apply(Themes.Transparent);
             lbl.Text = "Transparent";
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            _themer.Set(Theme.None);
+            _themer.Apply(Themes.None);
             lbl.Text = "Disabled";
         }
 

@@ -44,7 +44,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="Themer">
-      <HintPath>..\..\Themer.Framework\src\bin\Debug\Themer.dll</HintPath>
+      <HintPath>..\..\Themer.Framework\src\bin\Release\Themer.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
