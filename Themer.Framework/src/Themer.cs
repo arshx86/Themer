@@ -7,44 +7,19 @@ namespace Themer;
 /// </summary>
 public class ThemerApplier
 {
+
     private readonly IntPtr _handle;
 
     /// <summary> Adjustment level of the effect. The larger the number, the more effective of the style. </summary>
-    /// ///
-    private readonly uint adjustmentLevel = 20;
+    private const uint adjustmentLevel = 20;
 
     /// <summary> Color of the effect brush. </summary>
-    /// ///
-    private readonly uint backgroundColor = 0x990000; // Default: Dark
+    private const uint backgroundColor = 0x990000; // Default: Dark
 
     /// <summary>
-    ///     Initializes <b>Themer</b> to being used.
+    ///     Initializes <b>Themer</b> to current form.
     /// </summary>
-    /// <param name="handle">
-    ///     Handle of the form.
-    ///     <br>
-    ///         <b>Not handle of process, handle of the form.</b>
-    ///     </br>
-    /// </param>
-    /// <param name="adjustmentLevelA">The effectivesness of the style.</param>
-    /// <param name="_backgroundColorA">Color of the style.</param>
-    public ThemerApplier(IntPtr handle, uint? adjustmentLevelA = null, uint? _backgroundColorA = null)
-    {
-        // todo: add checks
-        _handle = handle;
-        if (adjustmentLevelA is not null) adjustmentLevel = adjustmentLevelA.Value;
-        if (_backgroundColorA is not null) backgroundColor = _backgroundColorA.Value;
-    }
-
-    /// <summary>
-    ///     Initializes <b>Themer</b> to being used.
-    /// </summary>
-    /// <param name="handle">
-    ///     Handle of the form.
-    ///     <br>
-    ///         <b>Not handle of process, handle of the form.</b>
-    ///     </br>
-    /// </param>
+    /// <param name="handle">  Handle of the form to be brushed. </param>
     public ThemerApplier(IntPtr handle)
     {
         _handle = handle;
@@ -56,21 +31,21 @@ public class ThemerApplier
     ///     Apply a <b>style</b> to window.
     /// </summary>
     /// <param name="theme">Style to be applied.</param>
-    public void Set(Theme theme)
+    public void Apply(Themes theme)
     {
         ResetDWM();
         switch (theme)
         {
-            case Theme.Acrylic:
+            case Themes.Acrylic:
                 Acrylic();
                 break;
-            case Theme.AeroGlass:
+            case Themes.AeroGlass:
                 AeroGlass();
                 break;
-            case Theme.Transparent:
+            case Themes.Transparent:
                 Transparent();
                 break;
-            case Theme.None:
+            case Themes.None:
                 Clear();
                 break;
         }

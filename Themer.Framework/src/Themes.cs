@@ -1,7 +1,7 @@
 ﻿namespace Themer;
 
 [EditorBrowsable(EditorBrowsableState.Always)]
-public enum Theme
+public enum Themes
 {
     /// <summary>
     ///     Acrylic is a kind of blur theme. But vision is low when compared to blur effect. Good when to create

@@ -40,7 +40,7 @@
     <Compile Include="Models\AccentPolicy.cs" />
     <Compile Include="Models\AccentState.cs" />
     <Compile Include="Models\MARGINS.cs" />
-    <Compile Include="Theme.cs" />
+    <Compile Include="Themes.cs" />
     <Compile Include="Models\WindowCompositionAttribute.cs" />
     <Compile Include="Themer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
