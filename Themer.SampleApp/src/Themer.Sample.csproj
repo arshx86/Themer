@@ -43,9 +43,8 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="Themer.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Themer.Framework\src\bin\Release\Themer.Framework.dll</HintPath>
+    <Reference Include="Themer">
+      <HintPath>..\..\Themer.Framework\src\bin\Debug\Themer.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
