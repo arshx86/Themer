@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/85416153/170999867-67a69405-e232-4574-
 
 <br>
 
-[![Acrylic](https://media.discordapp.net/attachments/977582992014856273/980579146075893810/unknown.png)](https://media.discordapp.net/attachments/977582992014856273/980579146075893810/unknown.png)
+![image](https://github.com/user-attachments/assets/f1f1a03e-dfd2-41a4-b555-3af27dfdfad5)
 
 </details>
 
@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/85416153/170999867-67a69405-e232-4574-
 
 <br>
 
-[![Aero Glass](https://media.discordapp.net/attachments/977582992014856273/980578913187156008/unknown.png)](https://media.discordapp.net/attachments/977582992014856273/980578913187156008/unknown.png)
+![image](https://github.com/user-attachments/assets/11ca5221-012f-499e-8e75-9131dd984be5)
 
 </details>
 
@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/85416153/170999867-67a69405-e232-4574-
 
 <br>
 
-[![Transparent](https://media.discordapp.net/attachments/977582992014856273/980580156945100800/unknown.png)](https://media.discordapp.net/attachments/977582992014856273/980580156945100800/unknown.png)
+![image](https://github.com/user-attachments/assets/915f09c4-1b3e-45a0-a455-091ecce46cd9)
 
 </details>
 
